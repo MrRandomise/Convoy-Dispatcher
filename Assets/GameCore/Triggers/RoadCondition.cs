@@ -1,0 +1,1 @@
+public enum RoadCondition { Normal, Congested, Blocked, Slippery }

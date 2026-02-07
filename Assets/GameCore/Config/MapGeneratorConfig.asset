@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66afe6e7daa96944092cf5bc8bb6eddd, type: 3}
+  m_Name: MapGeneratorConfig
+  m_EditorClassIdentifier: Assembly-CSharp::MapGeneratorConfig
+  SmallMap:
+    Width: 100
+    Length: 150
+    RoadSegments: 3
+    MinBuildings: 10
+    MaxBuildings: 30
+    MinDecorations: 20
+    MaxDecorations: 50
+  MediumMap:
+    Width: 150
+    Length: 250
+    RoadSegments: 5
+    MinBuildings: 10
+    MaxBuildings: 30
+    MinDecorations: 20
+    MaxDecorations: 50
+  LargeMap:
+    Width: 200
+    Length: 400
+    RoadSegments: 8
+    MinBuildings: 10
+    MaxBuildings: 30
+    MinDecorations: 20
+    MaxDecorations: 50
+  DestroyedBuildings:
+  - {fileID: 6701709908499438512, guid: 2ffbd30e1df3e3844a1d20b60a85a76e, type: 3}
+  - {fileID: 2716691990832002440, guid: f87a936f2f92fd543827777a716c6a2b, type: 3}
+  - {fileID: 2239634083302635949, guid: 624b5e255b575a644b7d8dbdce332b49, type: 3}
+  IntactBuildings:
+  - {fileID: 6701709908499438512, guid: 2ffbd30e1df3e3844a1d20b60a85a76e, type: 3}
+  - {fileID: 6701709908499438512, guid: d225b37942a734a478b23f33931018dc, type: 3}
+  - {fileID: 6701709908499438512, guid: b17f4bca86dbfd441831231f0bc1bd02, type: 3}
+  - {fileID: 6701709908499438512, guid: b3fac82bf75519540bb5dcdb2d85bf4a, type: 3}
+  - {fileID: 1933872731764152341, guid: 9ea98cf861323fa4ebaa76aa2fa1e8ba, type: 3}
+  Ruins:
+  - {fileID: 6450843539561449044, guid: 4fe53a2961f62c24e8c6c8348ec1770d, type: 3}
+  - {fileID: 4770495244929917487, guid: ef5ee901fbe011945aedc898fd7dcb72, type: 3}
+  - {fileID: 2184082854691780477, guid: 32444862e54a7ba4d972f8cbaac278a6, type: 3}
+  - {fileID: 7632620093002400954, guid: 27fd2591c0dc11b4eb49c10955ab2e21, type: 3}
+  StraightRoadPrefab: {fileID: 8063791301015864482, guid: 5bd0b2d0359621d4bb200e8ae475dd4a, type: 3}
+  CrossroadPrefab: {fileID: 5626810565092900701, guid: 1aabcb01260a7c047a1bbeccb4dcd0f2, type: 3}
+  TurnRoadPrefab: {fileID: 8660078825226590665, guid: 4b8678bcc6043214eb5c8de2fa154839, type: 3}
+  BridgePrefab: {fileID: 0}
+  StreetLights:
+  - {fileID: 133099908185011601, guid: 1b01ec087414cf046926d21f8c0c7f6f, type: 3}
+  - {fileID: 2258225869528357607, guid: d2420b29e97767a499f1a0fcbc314b3a, type: 3}
+  - {fileID: 5789896249604009285, guid: 120d7631bf5b4b94f8271411b1868e06, type: 3}
+  - {fileID: 4340829902474375263, guid: 805fe8520ca8daf4f9855ded306a0ca1, type: 3}
+  Containers:
+  - {fileID: 1120984276735026, guid: 5e64a31b42f3fa94ba6fef7556ef255d, type: 3}
+  - {fileID: 1745016628390402, guid: 699cfd0a280069f4f84062252da9195f, type: 3}
+  - {fileID: 1704870213819274, guid: 0807e7e8127e0f04db8975d3aa9a51a6, type: 3}
+  - {fileID: 1665387416913658, guid: fd10d21d51e1474438e49c71936cd2d4, type: 3}
+  - {fileID: 1440233322646246, guid: 11ed414ba81c91c4ebe5810c4321d721, type: 3}
+  - {fileID: 1456394818431456, guid: c4918ab23a48ca743adee527a98c0b72, type: 3}
+  - {fileID: 1879297606326524, guid: 0948e3b23cb09b5468b22eeaf3f65679, type: 3}
+  - {fileID: 1082525258978218, guid: aa0c1ecc6c7a8734d9c6e7fdf55ad721, type: 3}
+  - {fileID: 1120277234941072, guid: 81d346ae50d90b646b34c17f50e2c6f2, type: 3}
+  - {fileID: 1554901601766226, guid: ea40e7eda5f0ffe4e9d8f3c4239406a8, type: 3}
+  - {fileID: 1123231592148756, guid: 5ac421d7e8cea0447b1108e7955c0ed6, type: 3}
+  Debris: []
+  Billboards:
+  - {fileID: 125758, guid: e26ab9b14021ea34e8b777635b9d52e8, type: 3}
+  - {fileID: 141644, guid: 4fbee65c1abb2e545a2f25b208710e07, type: 3}
+  - {fileID: 142034, guid: d76e16fec7b6a1b498390b590cf7022e, type: 3}
+  - {fileID: 158752, guid: 611c177e6083e1041b409b306e95437b, type: 3}
+  - {fileID: 199010, guid: 50eccc57536b1ac4692cbab7e955005d, type: 3}
+  - {fileID: 115860, guid: 65d6dbd31887635438004f7876c8dbbb, type: 3}
+  - {fileID: 128556, guid: 36984270093f19c4b887e5dcb2c09b69, type: 3}
+  Vehicles:
+  - {fileID: 5397173380847203626, guid: 9ea1b211869c72f41a670e2ac0525657, type: 3}
+  GroundPrefab: {fileID: 5884499895332188641, guid: 2eb4d3ea0c34800409c61f0ceb1ec60a, type: 3}
+  RoadMaterial: {fileID: 2100000, guid: 20fad8d103fcf2f47abe4b73a6380551, type: 2}
+  DirtMaterial: {fileID: 2100000, guid: 1112b35cf8f8d3040820dd86fb2523f9, type: 2}
+  BuildingDensity: 0.7
+  DebrisDensity: 0.5
+  LightDensity: 0.3

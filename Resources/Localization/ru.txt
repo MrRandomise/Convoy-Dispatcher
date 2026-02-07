@@ -1,0 +1,49 @@
+﻿# Convoy Settings
+distance_tight=Плотно
+distance_standard=Стандарт
+distance_far=Далеко
+speed_slow=Медленно
+speed_normal=Нормально
+speed_fast=Быстро
+priority_safety=Безопасность
+priority_balanced=Баланс
+priority_time=Скорость
+threat_stop=Остановиться
+threat_evade=Объехать
+threat_wait=Ждать
+
+# Triggers
+trigger_fuel_low=Топливо ниже %
+trigger_obstacle=Препятствие впереди
+trigger_congestion=Пробка на дороге
+trigger_lagging=Конвой отстаёт
+trigger_attack=Под атакой
+action_switch_route=Сменить маршрут
+action_refuel=Ехать на заправку
+action_slow_down=Снизить скорость
+action_stop=Экстренная остановка
+trigger_description_format=Если %s → %s
+
+# Simulation
+btn_pause=Пауза
+btn_resume=Продолжить
+convoy_damaged=Конвой повреждён
+convoy_under_attack=Конвой под атакой!
+mission_success=Миссия выполнена!
+mission_failed=Миссия провалена
+time=Время
+fuel_used=Топливо
+deliveries=Доставки
+coins_earned=Заработано монет
+failed_conditions=Невыполненные условия
+
+# Conditions
+condition_deliverallcargo=Доставить весь груз
+condition_noconvoyloss=Сохранить все конвои
+condition_notruckloss=Сохранить все машины
+condition_withintimelimit=Уложиться во время
+condition_withinfuelbudget=Уложиться в топливо
+condition_nodamage=Без повреждений
+
+# General
+base=База
